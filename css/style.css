@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0;
+  background: url("../images/hero.png") no-repeat;
+  background-size: cover;
+}
+
+.hero__navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.hero__navbar__logo {
+  width: 20%;
+}
+
+.hero__navbar__logo__menu {
+  width: auto;
+  height: auto;
+  list-style: none;
+  display: flex;
+}
+
+.hero__navbar__logo__list {
+  margin-left: 3rem;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.hero__call {
+  margin-top: 5rem;
+  color: #ffffff;
+  background: rgba(53, 54, 52, 0.5);
+  display: inline-block;
+  padding: 2rem 4rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.hero_desc {
+  color: #c6c7c7;
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+
+.hero__hr {
+  display: inline-block;
+  width: 1.5rem;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.hero__link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.5rem 8rem;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin-bottom: 15rem;
+}
+
+.services {
+  width: 100%;
+  height: auto;
+  background: #28282e;
+  height: 731px;
+}
+
+.services__title {
+  color: #333333;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.services__desc {
+  margin-top: 3rem;
+  color: #a5a5a5;
+}
+
+.modify-services {
+  width: 100%;
+  height: 100%;
+  padding-top: 12rem;
+  background: url("../images/service.png") no-repeat;
+  background-size: cover;
+}
+
+.case {
+  width: 100%;
+  height: 548px;
+  padding: 2rem 0;
+  background: url("../images/case.png") no-repeat;
+  background-size: cover;
+}
+
+.case__title {
+  font-size: 4rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+}
+
+.case__desc {
+  color: #8c8c90;
+  margin: 3rem 0;
+}
+
+.case__link {
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0 6rem 0;
+}
+
+.footer {
+  width: 100%;
+  background: #ef4035;
+  padding: 3rem 0;
+  color: #ffffff;
+  font-weight: 300;
+}
